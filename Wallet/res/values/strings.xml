@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">闪客蜂</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="login">登陆</string>
+	<string name="regster">注册</string>
+	<string name="username">中软账户名</string>
+	<string name="inputPassword">请输入密码</string>
+	<string name="confirmPassword">再输入密码</string>
+	<string name="user">英文字母或汉字</string>
+	<string name="password">6-30位字母+数字</string>
+	<string name="regester">注册</string>
+	<string name="accountlogin">已有账户登录</string>
+	<string name="forget">忘记密码</string>
+	<string name="remember">记住密码</string>
+	<string name="panel">首页</string>
+	<string-array name="panel_name">
+	    <item>圈存</item>
+	    <item>查询</item>
+	    <item>绑定银行卡</item>
+	    <item>个人中心</item>
+	</string-array>
+	<string name="save">圈存</string>
+	<string name="consult">查询</string>
+	<string name="bind">绑定银行卡</string>
+	<string name="info">用户管理中心</string>
+	<string name="cardusername">持卡人姓名</string>
+	<string name="id">身份证号</string>
+	<string name="bankid">银行卡卡号</string>
+	<string name="phonenumber">手机号</string>
+	<string name="confirmnumber">验证码</string>
+	<string name="getconfirm">获取验证码</string>
+	<string name="password2">密码</string>
+	<string name="bindbutton">同意协议并绑定</string>
+	<string name="cssservice">\《中软卡服务协议\》</string>
+	<string name="info_user">用户信息查询</string>
+	<string name="settings">交通卡设置</string>
+	<string name="changepassword">密码修改</string>
+	<string name="reset">用户信息重置</string>
+	<string name="uname">用户名</string>
+	<string name="mail">邮箱</string>
+	<string name="oldpass">原密码</string>
+	<string name="newpass">新密码</string>
+	<string name="ok">确定</string>
+	<string name="money">请输入金额	(元)</string>
+	<string-array name="saveways">
+	    <item>快捷银行充值</item>
+	    <item>普通网银充值</item>
+	    <item>中软账号充值</item>
+	    <item>预付费款充值</item>
+	</string-array>
+	<string-array name="saveways2">
+	    <item>快捷银行充值</item>
+	    <item>普通网银充值</item>
+	    <item>预付费款充值</item>
+	</string-array>
+	<string name="choosebank">请选择银行</string>
+	<string name="inputcardnum">请输入卡号</string>
+	<string name="email">请输入邮箱名称：</string>
+	<string name="def">无</string>
+	<string name="ways">默认充值方式</string>
+	<string name="quickcard">快捷卡</string>
+	<string name="yuzhi">自动充值额度阈值</string>
+	<string name="edu">自动充值额度</string>
+	<string-array name="auto_money">
+	    <item>5元</item>
+	    <item>10元</item>
+	    <item>15元</item>
+	</string-array>
+	<string-array name="auto">
+	    <item>10元</item>
+	    <item>20元</item>
+	    <item>30元</item>
+	</string-array>
+	<string name="showcard">快捷银行卡</string>
+	<string-array name="bankname">
+	    <item>中国银行</item>
+	    <item>中国建设银行</item>
+	    <item>中国工商银行</item>
+	    <item>中国农业银行</item>
+	    <item>招商银行</item>
+	</string-array>
+</resources>

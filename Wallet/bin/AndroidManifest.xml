@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lwq.wallet.login"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lwq.wallet.login.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.lwq.wallet.login.AnimationActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            >
+        </activity>
+        <activity 
+            android:name="com.lwq.wallet.login.LoginActivity"
+            android:label="@string/login"
+            >
+        </activity>
+         <activity 
+            android:name="com.lwq.wallet.login.RegsterActivity"
+            android:label="@string/regster"
+            >
+         </activity>
+         <activity 
+            android:name="com.lwq.wallet.login.ForgetActivity"
+            android:label="@string/forget"
+            >
+         </activity>
+         <activity 
+            android:name="com.lwq.wallet.login.MessageActivity"
+            android:label="@string/forget"
+            >
+         </activity>
+         <activity 
+            android:name="com.lwq.wallet.login.EmailActivity"
+            android:label="@string/forget"
+            >
+         </activity>
+         <activity 
+            android:name="com.lwq.wallet.panel.PanelActivity"
+            android:label="@string/panel"
+            >
+         </activity>
+         <activity 
+            android:name="com.lwq.wallet.panel.SaveActivity"
+            android:label="@string/save"
+            >
+         </activity>
+         <activity 
+            android:name="com.lwq.wallet.panel.ConsultActivity"
+            android:label="@string/consult"
+            >
+         </activity>
+         <activity 
+            android:name="com.lwq.wallet.panel.BindActivity"
+            android:label="@string/bind"
+            >
+         </activity>
+         <activity 
+            android:name="com.lwq.wallet.panel.ShowCardActivity"
+            android:label="@string/showcard"
+            >
+         </activity>
+         <activity 
+            android:name="com.lwq.wallet.panel.InfoActivity"
+            android:label="@string/info"
+            >
+         </activity>
+         <activity 
+            android:name="com.lwq.wallet.panel.CardActivity"
+            >
+         </activity>
+         <activity 
+            android:name="com.lwq.wallet.panel.AccountActivity"
+            >
+         </activity>
+         <activity 
+            android:name="com.lwq.wallet.save.SaveCardActivity"
+            >
+         </activity>
+         <activity 
+            android:name="com.lwq.wallet.save.SaveAccountActivity"
+            >
+         </activity>
+         <service 
+             android:name="com.lwq.wallet.background.ConsumeService"
+             ></service>
+    </application>
+
+</manifest>

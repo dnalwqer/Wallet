@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#DF6100"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+            android:layout_margin="5dp"
+            />
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/css"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中软现金卡"
+            android:textColor="#fff"
+            android:layout_margin="8dp"
+            />
+        <TextView
+            android:id="@+id/carduser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/css"
+            android:layout_alignBaseline="@id/css"
+            android:text="刘伟强"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/cardusernum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/css"
+            android:layout_toLeftOf="@+id/carduser"
+            android:text="123456789"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+		</RelativeLayout>
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="244元"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+        <ListView
+        android:id="@+id/recordlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

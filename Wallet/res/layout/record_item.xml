@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+	<TextView
+	    android:id="@+id/record_ways"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="网银"
+	    android:layout_marginTop="15dp"
+	    android:layout_marginLeft="30dp"
+	    android:textStyle="bold"
+	    android:textSize="15sp" />
+	
+	<TextView
+	    android:id="@+id/record_time"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="04-04"
+	    android:textSize="9sp"
+	    android:layout_marginTop="5dp"
+	    android:layout_below="@id/record_ways"
+	    android:layout_alignLeft="@id/record_ways"
+	    />
+	
+	<TextView 
+	    android:id="@+id/record_money"
+	    android:layout_height="wrap_content"		android:layout_width="wrap_content"
+	    android:text="+30"
+	    android:textSize="20sp"
+	    android:layout_toRightOf="@id/record_ways"
+	    android:layout_alignParentRight="true"
+	    android:gravity="right"
+	    android:layout_marginRight="80dp"
+	    android:layout_marginTop="17dp"
+	    />
+
+</RelativeLayout>

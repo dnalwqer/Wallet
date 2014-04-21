@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+	<LinearLayout
+	    android:id="@+id/saveaccount_layout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    >
+	    <com.lwq.wallet.panel.MemberLayout   
+	     android:orientation="horizontal" 
+ 	 	 android:layout_width="match_parent" 
+ 	 	 android:layout_height="40sp" 
+ 	 	 android:layout_marginLeft="10dp"
+ 	 	 android:layout_marginRight="10dp"
+ 	 	 android:layout_marginTop="3dp" >
+ 	 	 <TextView android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+	     android:text="@string/money"
+	 	 android:textSize="15sp" 
+	 	 android:textColor="#000" 
+	 	 android:paddingLeft="10sp" 
+	 	 android:paddingTop="10sp" 
+	 	 android:gravity="center"/>
+	 	<EditText android:layout_width="fill_parent" 
+	     android:inputType="text"
+	     android:layout_height="fill_parent" 
+	     android:textSize="15sp" 
+	     android:layout_marginTop="5sp"
+	  	 android:layout_marginRight="10sp" 
+	  	 android:id="@+id/saveaccountmoney"/> 
+	    </com.lwq.wallet.panel.MemberLayout>
+
+	    <com.lwq.wallet.panel.MemberLayout   
+	     android:orientation="horizontal" 
+ 	 	 android:layout_width="match_parent" 
+ 	 	 android:layout_height="40sp" 
+ 	 	 android:layout_marginLeft="10dp"
+ 	 	 android:layout_marginRight="10dp"
+ 	 	 android:layout_marginTop="3dp" >
+	     <TextView android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+	     android:text="@string/inputPassword"
+	 	 android:textSize="15sp" 
+	 	 android:textColor="#000" 
+	 	 android:paddingLeft="10sp" 
+	 	 android:paddingTop="10sp" 
+	 	 android:gravity="center"/>
+	 	<EditText android:layout_width="fill_parent" 
+	     android:inputType="textPassword"
+	     android:layout_height="fill_parent" 
+	     android:textSize="15sp" 
+	     android:layout_marginTop="5sp"
+	  	 android:layout_marginRight="10sp" 
+	  	 android:id="@+id/saveaccountpassword"/> 
+
+	    </com.lwq.wallet.panel.MemberLayout>
+	    
+	    <Button
+	        android:id="@+id/saveaccountbutton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:background="#DF6100"
+	        android:layout_marginRight="10dp"
+	        android:text="@string/ok">
+	        </Button>
+	</LinearLayout>
+	
+	<ScrollView 
+	     android:id="@+id/saveaccount_layout2"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content">
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    >
+	 <com.lwq.wallet.panel.MemberLayout
+ 	 	 android:orientation="horizontal" 
+ 	 	 android:layout_width="fill_parent" 
+ 	 	 android:layout_height="40sp" 
+ 	 	 android:layout_marginLeft="10dp"
+ 	 	 android:layout_marginRight="10dp"
+ 	 	 android:layout_marginTop="3dp">	 
+	 <TextView android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+	     android:text="@string/money"
+	 	 android:textSize="15sp" 
+	 	 android:textColor="#000" 
+	 	 android:paddingLeft="10sp" 
+	 	 android:paddingTop="10sp" 
+	 	 android:gravity="center"/>
+	 <EditText android:layout_width="fill_parent" 
+	     android:inputType="text"
+	     android:layout_height="fill_parent" 
+	     android:textSize="15sp" 
+	     android:layout_marginTop="5sp"
+	  	 android:layout_marginRight="10sp" 
+	  	 android:id="@+id/saveaccountbankmoney"/> 
+	</com.lwq.wallet.panel.MemberLayout>
+	
+	 <com.lwq.wallet.panel.MemberLayout
+ 	 	 android:orientation="horizontal" 
+ 	 	 android:layout_width="fill_parent" 
+ 	 	 android:layout_height="40sp" 
+ 	 	 android:layout_marginLeft="10dp"
+ 	 	 android:layout_marginRight="10dp"
+ 	 	 android:layout_marginTop="3dp">	 
+	 <TextView android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+	     android:text="@string/choosebank"
+	 	 android:textSize="15sp" 
+	 	 android:textColor="#000" 
+	 	 android:paddingLeft="10sp" 
+	 	 android:paddingTop="10sp" 
+	 	 android:gravity="center"/>
+	 <Spinner android:layout_width="fill_parent" 
+	     android:layout_height="fill_parent" 
+	     android:layout_marginTop="5sp"
+	  	 android:layout_marginRight="10sp" 
+	  	 android:id="@+id/saveaccountbank"/> 
+	  	 
+	 </com.lwq.wallet.panel.MemberLayout>
+	  	 
+	 <com.lwq.wallet.panel.MemberLayout
+ 	 	 android:orientation="horizontal" 
+ 	 	 android:layout_width="fill_parent" 
+ 	 	 android:layout_height="40sp" 
+ 	 	 android:layout_marginLeft="10dp"
+ 	 	 android:layout_marginRight="10dp"
+ 	 	 android:layout_marginTop="3dp">	 
+	 <TextView android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+	     android:text="@string/cardusername"
+	 	 android:textSize="15sp" 
+	 	 android:textColor="#000" 
+	 	 android:paddingLeft="10sp" 
+	 	 android:paddingTop="10sp" 
+	 	 android:gravity="center"/>
+	 <EditText android:layout_width="fill_parent" 
+	     android:inputType="text"
+	     android:layout_height="fill_parent" 
+	     android:textSize="15sp" 
+	     android:layout_marginTop="5sp"
+	  	 android:layout_marginRight="10sp" 
+	  	 android:id="@+id/saveaccountuser"/> 
+	</com.lwq.wallet.panel.MemberLayout>
+	<com.lwq.wallet.panel.MemberLayout
+ 	 	 android:orientation="horizontal" 
+ 	 	 android:layout_width="fill_parent" 
+ 	 	 android:layout_height="40sp" 
+ 	 	 android:layout_marginLeft="10dp"
+ 	 	 android:layout_marginRight="10dp"
+ 	 	 android:layout_marginTop="3dp">	 
+	 <TextView android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+	     android:text="@string/id"
+	 	 android:textSize="15sp" 
+	 	 android:textColor="#000" 
+	 	 android:paddingLeft="10sp" 
+	 	 android:paddingTop="10sp" 
+	 	 android:gravity="center"/>
+	 <EditText android:layout_width="fill_parent"
+	     android:inputType="text"
+	     android:layout_height="fill_parent" 
+	     android:textSize="15sp" 
+	     android:layout_marginTop="5sp"
+	  	 android:layout_marginRight="10sp" 
+	  	 android:id="@+id/saveaccountid"/> 
+	</com.lwq.wallet.panel.MemberLayout>
+	<com.lwq.wallet.panel.MemberLayout
+ 	 	 android:orientation="horizontal" 
+ 	 	 android:layout_width="fill_parent" 
+ 	 	 android:layout_height="40sp" 
+ 	 	 android:layout_marginLeft="10dp"
+ 	 	 android:layout_marginRight="10dp"
+ 	 	 android:layout_marginTop="3dp">	 
+	 <TextView android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+	     android:text="@string/bankid"
+	 	 android:textSize="15sp" 
+	 	 android:textColor="#000" 
+	 	 android:paddingLeft="10sp" 
+	 	 android:paddingTop="10sp" 
+	 	 android:gravity="center"/>
+	 <EditText android:layout_width="fill_parent" 
+	     android:inputType="text"
+	     android:layout_height="fill_parent" 
+	     android:textSize="15sp" 
+	     android:layout_marginTop="5sp"
+	  	 android:layout_marginRight="10sp" 
+	  	 android:id="@+id/saveaccountbankid"/> 
+	</com.lwq.wallet.panel.MemberLayout>
+	<com.lwq.wallet.panel.MemberLayout
+ 	 	 android:orientation="horizontal" 
+ 	 	 android:layout_width="fill_parent" 
+ 	 	 android:layout_height="40sp" 
+ 	 	 android:layout_marginLeft="10dp"
+ 	 	 android:layout_marginRight="10dp"
+ 	 	 android:layout_marginTop="3dp">	 
+	 <TextView android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+	     android:text="@string/phonenumber"
+	 	 android:textSize="15sp" 
+	 	 android:textColor="#000" 
+	 	 android:paddingLeft="10sp" 
+	 	 android:paddingTop="10sp" 
+	 	 android:gravity="center"/>
+	 <EditText android:layout_width="fill_parent" 
+	     android:inputType="phone"
+	     android:layout_height="fill_parent" 
+	     android:textSize="15sp" 
+	     android:layout_marginTop="5sp"
+	  	 android:layout_marginRight="10sp" 
+	  	 android:id="@+id/saveaccountphone"/> 
+	</com.lwq.wallet.panel.MemberLayout>
+	<com.lwq.wallet.panel.MemberLayout
+ 	 	 android:orientation="horizontal" 
+ 	 	 android:layout_width="fill_parent" 
+ 	 	 android:layout_height="40sp" 
+ 	 	 android:layout_marginLeft="10dp"
+ 	 	 android:layout_marginRight="10dp"
+ 	 	 android:layout_marginTop="3dp">	 
+	 <TextView android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+	     android:text="@string/confirmnumber"
+	 	 android:textSize="15sp" 
+	 	 android:textColor="#000" 
+	 	 android:paddingLeft="10sp" 
+	 	 android:paddingTop="10sp" 
+	 	 android:gravity="center"/>
+	 <EditText android:layout_width="120dp" 
+	     android:inputType="number"
+	     android:layout_height="fill_parent" 
+	     android:textSize="15sp" 
+	     android:layout_marginTop="5sp"
+	  	 android:layout_marginRight="10sp" 
+	  	 android:id="@+id/saveaccountconfirm"/>
+	 <Button
+	     android:id="@+id/saveaccountgetconfirm"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="@string/getconfirm"
+	     android:textSize="10sp" />
+	</com.lwq.wallet.panel.MemberLayout>
+	
+	<com.lwq.wallet.panel.MemberLayout
+ 	 	 android:orientation="horizontal" 
+ 	 	 android:layout_width="fill_parent" 
+ 	 	 android:layout_height="40sp" 
+ 	 	 android:layout_marginLeft="10dp"
+ 	 	 android:layout_marginRight="10dp"
+ 	 	 android:layout_marginTop="3dp">	 
+	 <TextView android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+	     android:text="@string/password2"
+	 	 android:textSize="15sp" 
+	 	 android:textColor="#000" 
+	 	 android:paddingLeft="10sp" 
+	 	 android:paddingTop="10sp" 
+	 	 android:gravity="center"/>
+	 <EditText android:layout_width="fill_parent" 
+	     android:inputType="textPassword"
+	     android:layout_height="fill_parent" 
+	     android:textSize="15sp" 
+	     android:layout_marginTop="5sp"
+	  	 android:layout_marginRight="10sp" 
+	  	 android:id="@+id/saveaccountbankpassword"/> 
+	</com.lwq.wallet.panel.MemberLayout>
+	<Button
+	    android:id="@+id/saveaccountbankbutton"
+	    android:background="#ff6600"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/ok"
+	    android:paddingLeft="5dp" 
+	    android:paddingRight="5dp"
+	    android:layout_gravity="right"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="15dp"
+	    />
+	</LinearLayout>
+	</ScrollView>
+
+	<LinearLayout
+	    android:id="@+id/saveaccount_layout3"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    >
+	    <com.lwq.wallet.panel.MemberLayout   
+	     android:orientation="horizontal" 
+ 	 	 android:layout_width="match_parent" 
+ 	 	 android:layout_height="40sp" 
+ 	 	 android:layout_marginLeft="10dp"
+ 	 	 android:layout_marginRight="10dp"
+ 	 	 android:layout_marginTop="3dp" >
+ 	 	 <TextView android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+	     android:text="@string/inputcardnum"
+	 	 android:textSize="15sp" 
+	 	 android:textColor="#000" 
+	 	 android:paddingLeft="10sp" 
+	 	 android:paddingTop="10sp" 
+	 	 android:gravity="center"/>
+	 	<EditText android:layout_width="fill_parent" 
+	     android:inputType="text"
+	     android:layout_height="fill_parent" 
+	     android:textSize="15sp" 
+	     android:layout_marginTop="5sp"
+	  	 android:layout_marginRight="10sp" 
+	  	 android:id="@+id/saveaccountaccountmoney"/> 
+	    </com.lwq.wallet.panel.MemberLayout>
+
+	    <com.lwq.wallet.panel.MemberLayout   
+	     android:orientation="horizontal" 
+ 	 	 android:layout_width="match_parent" 
+ 	 	 android:layout_height="40sp" 
+ 	 	 android:layout_marginLeft="10dp"
+ 	 	 android:layout_marginRight="10dp"
+ 	 	 android:layout_marginTop="3dp" >
+	     <TextView android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+	     android:text="@string/inputPassword"
+	 	 android:textSize="15sp" 
+	 	 android:textColor="#000" 
+	 	 android:paddingLeft="10sp" 
+	 	 android:paddingTop="10sp" 
+	 	 android:gravity="center"/>
+	 	<EditText android:layout_width="fill_parent" 
+	     android:inputType="textPassword"
+	     android:layout_height="fill_parent" 
+	     android:textSize="15sp" 
+	     android:layout_marginTop="5sp"
+	  	 android:layout_marginRight="10sp" 
+	  	 android:id="@+id/saveaccountaccountpassword"/> 
+
+	    </com.lwq.wallet.panel.MemberLayout>
+	    
+	    <Button
+	        android:id="@+id/saveaccountaccountbutton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:background="#DF6100"
+	        android:layout_marginRight="10dp"
+	        android:text="@string/ok">
+	        </Button>
+	</LinearLayout>
+</LinearLayout>
